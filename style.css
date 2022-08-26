@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: "Raleway", sans-serif;
+}
+
+.head {
+  background-color: whitesmoke;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  height: 55px;
+  min-width: 600px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
+}
+.head__title {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.content {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.content__title {
+  padding-left: 80px;
+}
+
+.about-me {
+  display: flex;
+  padding-left: 70px;
+}
+
+.about-me__text {
+  align-self: flex-start;
+  padding-top: 45px;
+}
+
+.about-programming {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: rgb(250, 171, 0);
+  text-decoration: underline;
+}
+
+.about-programming__text {
+  align-self: center;
+  justify-content: space-around;
+}
+
+.contacts {
+  height: 317px;
+  border-top: 2px solid #DDDDDD;
+  padding-top: 15px;
+}
+
+.contacts__title {
+  padding-left: 25px;
+  margin-bottom: 22px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contacts__container {
+  padding-left: 25px;
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.contacts__container a {
+  color: black;
+}
+
+.contacts__item {
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.contacts__img img {
+  height: 32px;
+  width: 32px;
+}
+
+.contacts__text {
+  align-self: center;
+  padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .content {
+    font-size: 18px;
+  }
+  .about-me__img img {
+    height: 230px;
+    width: 337px;
+  }
+  .about-programming__img img {
+    height: 396px;
+    width: 262px;
+  }
+}
+@media (max-width: 570px) {
+  .content {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
