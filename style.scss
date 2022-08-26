@@ -59,6 +59,7 @@ body{
     display: flex;
     padding-left: 70px;
 }
+
 .about-me__text {
     align-self: flex-start;
     padding-top: 45px;
@@ -79,16 +80,18 @@ body{
     margin-right: 70px;
     margin-left: 30px;
     img{
-            border: 2px solid rgb(250, 171, 0);
+        border: 2px solid rgb(250, 171, 0);
     }
 }
 
 .about-programming__text {
+    min-height: 100%;
     align-self: center;
     justify-content: space-around;
 }
 
 .contacts {
+    margin-top: 20px;
     height: 317px;
     border-top: 2px solid #DDDDDD;
     padding-top: 15px;
@@ -144,7 +147,10 @@ body{
             height: 346px;
             width: 222px;
         }
-
+    
+    .contacts{
+        margin-top: 0;
+    }
     }
 }
 

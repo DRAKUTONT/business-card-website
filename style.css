@@ -136,11 +136,13 @@ body {
 }
 
 .about-programming__text {
+  min-height: 100%;
   align-self: center;
   justify-content: space-around;
 }
 
 .contacts {
+  margin-top: 20px;
   height: 317px;
   border-top: 2px solid #DDDDDD;
   padding-top: 15px;
@@ -192,6 +194,9 @@ body {
   .about-programming__img img {
     height: 346px;
     width: 222px;
+  }
+  .about-programming__img .contacts {
+    margin-top: 0;
   }
 }
 @media (max-width: 570px) {
