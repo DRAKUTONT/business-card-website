@@ -41,6 +41,8 @@ body{
 
 .content {
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title{
@@ -62,12 +64,10 @@ body{
     padding-top: 45px;
 }
 
-.about-me__img {
-}
-
 .about-programming {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    min-width: 100%;
 }
 
 .link{
@@ -76,14 +76,16 @@ body{
 }
 
 .about-programming__img {
-    // padding-right: 70px;
-    // padding-left: 70px;
+    margin-right: 70px;
+    margin-left: 30px;
+    img{
+        border: 2px solid rgb(250, 171, 0);
+    }
 }
 
 .about-programming__text {
     align-self: center;
     justify-content: space-around;
-
 }
 
 .contacts {
@@ -139,9 +141,10 @@ body{
 
     .about-programming__img{
         img{
-            height: 396px;
-            width: 262px;
+            height: 346px;
+            width: 222px;
         }
+
     }
 }
 
